@@ -1,0 +1,233 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    display: block;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    margin-bottom: 0;
+}
+
+/* Project Detail Page */
+.project-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-date {
+    color: #888;
+    font-size: 14px;
+}
+
+.project-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project-images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.project-images img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-images img:hover {
+    transform: scale(1.05);
+}
+
+.project-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project-link a {
+    display: inline-block;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+}
+
+.project-link a:hover {
+    background-color: #555;
+}
+
+.project-link a i {
+    margin-right: 10px;
+}
+
+.project-navigation {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back-button {
+    display: inline-block;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.back-button span {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Contact Section */
+#contact {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007BFF;
+}
+
+.social-links i {
+    margin-right: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
